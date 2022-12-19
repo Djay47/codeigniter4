@@ -1,0 +1,187 @@
+CRITICAL - 2022-12-16 01:19:25 --> Call to undefined method App\Controllers\Admin\Pesanan::query()
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->update('2')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-16 01:19:58 --> Call to undefined method App\Controllers\Admin\Pesanan::query()
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->update('2')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-16 01:22:11 --> Call to undefined method App\Controllers\Admin\Pesanan::query()
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->update('2')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-16 01:22:49 --> Undefined index: pesanan
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Views\pesanan\update.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Common.php(1087): CodeIgniter\View\View->render('pesanan/update', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Controllers\Admin\Pesanan.php(56): view('pesanan/update', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->update('2')
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-16 01:24:38 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Common.php(1087): CodeIgniter\View\View->render('pesanan/update', Array, true)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Controllers\Admin\Pesanan.php(56): view('pesanan/update', Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->update('2')
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-12-16 02:52:02 --> Undefined variable: pesanan
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Views\pesanan\update.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Common.php(1087): CodeIgniter\View\View->render('pesanan/update', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Controllers\Admin\Pesanan.php(56): view('pesanan/update', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->update('1')
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-16 03:14:40 --> Undefined variable: 6
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Controllers\Admin\Pesanan.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->save()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-16 03:26:12 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/pesanan/u...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/pesanan/u...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-16 03:42:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM v...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Controllers\Admin\Pesanan.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->update()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-16 03:43:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' kembali = 0, state = 1 WHERE idpesanan =' at line 1
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE pesanan ...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE pesanan ...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE pesanan ...')
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Controllers\Admin\Pesanan.php(74): CodeIgniter\Database\BaseConnection->query('UPDATE pesanan ...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->save()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-16 03:54:43 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/DetailPes...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/DetailPes...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-16 03:54:52 --> Class 'Codeigniter\Model' not found
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Deta...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Deta...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Controllers\Admin\DetailPesanan.php(12): spl_autoload_call('App\\Models\\Deta...')
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(886): App\Controllers\Admin\DetailPesanan->__construct()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-16 08:35:28 --> Undefined property: App\Controllers\Admin\DetailPesanan::$db
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\app\Controllers\Admin\DetailPesanan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\system\CodeIgniter.php(914): App\Controllers\Admin\DetailPesanan->cari()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailPesanan))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-16 08:36:47 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/detailpes...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/detailpes...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi15-video41\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-16 09:42:35 --> Undefined variable: userModel
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\app\Controllers\Admin\User.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(886): App\Controllers\Admin\User->__construct()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-16 09:56:29 --> Undefined variable: ktgr
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\app\Views\user\select.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Common.php(1087): CodeIgniter\View\View->render('user/select', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\app\Controllers\Admin\User.php(22): view('user/select', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(914): App\Controllers\Admin\User->index()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-16 10:06:48 --> Undefined property: App\Controllers\Admin\User::$kategoriModel
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\app\Controllers\Admin\User.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(914): App\Controllers\Admin\User->index()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-16 22:01:18 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/user/crea...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/user/crea...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-16 22:01:33 --> Invalid file: {0}
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/insert.ph...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Common.php(1087): CodeIgniter\View\View->render('admin/insert', Array, true)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\app\Controllers\Admin\User.php(43): view('admin/insert', Array)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(914): App\Controllers\Admin\User->create()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-16 23:08:48 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/user')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/user')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-16 23:12:24 --> Undefined index: page_list
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\app\Controllers\Admin\User.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(914): App\Controllers\Admin\User->update_status('3', '0')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi15-video42\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

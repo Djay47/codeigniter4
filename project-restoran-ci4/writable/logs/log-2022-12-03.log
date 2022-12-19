@@ -1,0 +1,42 @@
+CRITICAL - 2022-12-03 00:17:51 --> {0} is not a valid Pager template.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\Pager\Pager.php(182): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bs_paging')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\Pager\Pager.php(121): CodeIgniter\Pager\Pager->displayLinks('group1', 'bs_paging')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\app\Views\kategori\select.php(32): CodeIgniter\Pager\Pager->links('group1', 'bs_paging')
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\Common.php(1087): CodeIgniter\View\View->render('kategori/select', Array, true)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\app\Controllers\Admin\Kategori.php(28): view('kategori/select', Array)
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->index()
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-03 01:51:03 --> Call to undefined function view_cells()
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\Common.php(1087): CodeIgniter\View\View->render('menu/form', Array, true)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\app\Controllers\Admin\Menu.php(14): view('menu/form', Array)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->index()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-03 01:58:55 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/Menu')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/Menu')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-03 02:09:30 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/kategori')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/kategori')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-03 02:10:17 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/kategori')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/kategori')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,62 @@
+CRITICAL - 2022-12-18 01:34:28 --> preg_match(): Compilation failed: missing closing parenthesis at offset 40
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 425, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Router\Router.php(425): preg_match('#^admin/pelangg...', 'admin/adminpage...', Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('admin/adminpage...')
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/adminpage...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-18 01:36:20 --> preg_match(): Compilation failed: missing closing parenthesis at offset 40
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 425, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Router\Router.php(425): preg_match('#^admin/pelangg...', 'admin/adminpage...', Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('admin/adminpage...')
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/adminpage...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-18 01:39:02 --> preg_match(): Compilation failed: missing closing parenthesis at offset 40
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 425, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Router\Router.php(425): preg_match('#^admin/pelangg...', 'admin/adminpage...', Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('admin/adminpage...')
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/adminpage...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-18 01:39:36 --> preg_match(): Compilation failed: missing closing parenthesis at offset 40
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 425, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Router\Router.php(425): preg_match('#^admin/pelangg...', 'admin/adminpage...', Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('admin/adminpage...')
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/adminpage...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi16-video47\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-18 04:25:53 --> Undefined variable: awalData
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\app\Views\kategori\select.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\Common.php(1087): CodeIgniter\View\View->render('kategori/select', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\app\Controllers\Admin\AdminPage.php(18): view('kategori/select', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPage->index()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPage))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-18 04:27:27 --> syntax error, unexpected 'case' (T_CASE), expecting ';'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi16-video50\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

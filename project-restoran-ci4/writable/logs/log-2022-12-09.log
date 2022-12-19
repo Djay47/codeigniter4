@@ -1,0 +1,99 @@
+CRITICAL - 2022-12-09 21:50:44 --> syntax error, unexpected ';', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/Pesanan')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/Pesanan')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 21:50:58 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/Pesanan')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/Pesanan')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 21:54:55 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/Pesanan')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/Pesanan')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 21:55:10 --> syntax error, unexpected 'idpelanggan' (T_STRING), expecting ',' or ';'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/Pesanan')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/Pesanan')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 21:55:42 --> Array to string conversion
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\app\Controllers\Admin\Pesanan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->index()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 21:57:59 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/Pesanan')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/Pesanan')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 21:58:29 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/Pesanan')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/Pesanan')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 21:59:16 --> Array to string conversion
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\app\Controllers\Admin\Pesanan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->index()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 22:00:04 --> Array to string conversion
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\app\Controllers\Admin\Pesanan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->index()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 22:01:15 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/Pesanan')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/Pesanan')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video34\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-09 22:41:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM v...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\app\Controllers\Admin\Pesanan.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(914): App\Controllers\Admin\Pesanan->index()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pesanan))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-09 22:48:44 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/Pesanan')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/Pesanan')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi14-video35\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

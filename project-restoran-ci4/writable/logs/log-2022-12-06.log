@@ -1,0 +1,29 @@
+CRITICAL - 2022-12-06 23:40:43 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getName()
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-06 23:41:17 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getName()
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-06 23:41:51 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-06 23:42:44 --> Undefined variable: gambar
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\app\Controllers\Admin\Menu.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi12-video27\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

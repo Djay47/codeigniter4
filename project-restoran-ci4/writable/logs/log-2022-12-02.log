@@ -1,0 +1,455 @@
+CRITICAL - 2022-12-02 02:51:48 --> Undefined index: katerangan
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Views\kategori\update.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Common.php(1087): CodeIgniter\View\View->render('kategori/update', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(85): view('kategori/update', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->update('6')
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 02:55:07 --> Undefined index: kategori
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Views\kategori\update.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Common.php(1087): CodeIgniter\View\View->render('kategori/update', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(85): view('kategori/update', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->update()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 04:46:21 --> Undefined variable: title
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Common.php(1087): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\AdminPage.php(10): view('layout/template')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPage->index()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPage))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 04:48:26 --> Undefined variable: title
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Common.php(1087): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\AdminPage.php(14): view('layout/template')
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\AdminPage->index()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPage))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 05:06:14 --> Undefined variable: title
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Common.php(1087): CodeIgniter\View\View->render('menu/form', Array, true)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Menu.php(9): view('menu/form')
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->index()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 05:09:27 --> Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Menu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->index()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-02 05:09:37 --> syntax error, unexpected 'data' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/menu')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/menu')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-02 05:21:29 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 05:21:44 --> Undefined variable: gambar
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Menu.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-02 05:21:58 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 06:34:13 --> Undefined variable: session
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\User.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-02 06:34:40 --> Undefined variable: session
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\User.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-02 06:35:25 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-02 06:35:30 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-02 06:36:33 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 06:40:50 --> Trying to get property 'item' of non-object
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\User.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-02 06:41:11 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 06:41:21 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 06:41:40 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 06:41:48 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 06:43:07 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 06:44:02 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-02 06:50:59 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/user/crea...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/user/crea...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-02 06:52:38 --> Undefined variable: user
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\User.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read('user')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-02 06:55:09 --> Too few arguments to function App\Controllers\Admin\User::read(), 0 passed in C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 06:55:18 --> Too few arguments to function App\Controllers\Admin\User::read(), 0 passed in C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\User->read()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-02 17:52:22 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Hanya boleh ber...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'te', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(42): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 17:53:22 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Hanya boleh ber...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'te', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(42): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 17:53:39 --> There is no data to {0}.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(679): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(42): CodeIgniter\Model->insert(NULL)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-12-02 17:53:59 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Hanya boleh ber...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'te', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(42): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 17:56:47 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'a', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(42): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 17:59:33 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'ke', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(42): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 18:02:10 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'a', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(42): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 18:08:50 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'a', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(44): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 18:16:51 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'a', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(44): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 18:17:11 --> There is no data to {0}.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(679): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(44): CodeIgniter\Model->insert(NULL)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-12-02 18:17:33 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'tes', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(44): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 18:21:18 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'tes 2', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(44): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 18:45:30 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'Tes 4', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(42): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 18:56:21 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'a', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(1443): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Model.php(701): CodeIgniter\Model->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(42): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-02 19:07:39 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|alpha_...')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(46): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 19:32:28 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'h', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(46): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 19:33:08 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'h', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(46): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 19:33:25 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'h', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(46): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 19:34:37 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'h', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(47): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 19:41:33 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'ab', Array, Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(46): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-02 20:41:53 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Common.php(1087): CodeIgniter\View\View->render('kategori/insert', Array, true)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(36): view('kategori/insert', Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->create()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-12-02 20:42:16 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Common.php(1087): CodeIgniter\View\View->render('kategori/insert', Array, true)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\app\Controllers\Admin\Kategori.php(36): view('kategori/insert', Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->create()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi01-video11-20\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-12-02 21:39:20 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-02 23:55:50 --> Call to undefined method APP\Models\KategoriModel::pagination
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\app\Controllers\Admin\Kategori.php(25): CodeIgniter\Model->__call('pagination', Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->index()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi01-video16-19\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

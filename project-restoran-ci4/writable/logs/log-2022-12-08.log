@@ -1,0 +1,167 @@
+CRITICAL - 2022-12-08 04:04:05 --> Call to undefined method CodeIgniter\Session\Session::setFlashata()
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->insert()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-08 04:08:41 --> Array to string conversion
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Views\menu\insert.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Common.php(1087): CodeIgniter\View\View->render('menu/insert', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Menu.php(62): view('menu/insert', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->create()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-08 04:11:41 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->insert()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-08 04:14:14 --> Array to string conversion
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Views\menu\insert.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Common.php(1087): CodeIgniter\View\View->render('menu/insert', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Menu.php(62): view('menu/insert', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->create()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-08 04:14:55 --> Array to string conversion
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Views\kategori\insert.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Common.php(1087): CodeIgniter\View\View->render('kategori/insert', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Kategori.php(41): view('kategori/insert', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->create()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-08 04:17:47 --> Array to string conversion
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Views\kategori\insert.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Common.php(1087): CodeIgniter\View\View->render('kategori/insert', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Kategori.php(41): view('kategori/insert', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->create()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-08 04:20:51 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Common.php(1087): CodeIgniter\View\View->render('menu/insert', Array, true)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Menu.php(62): view('menu/insert', Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->create()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-12-08 04:21:59 --> syntax error, unexpected ':', expecting ';'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Common.php(1087): CodeIgniter\View\View->render('menu/insert', Array, true)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Menu.php(62): view('menu/insert', Array)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->create()
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-12-08 05:42:16 --> Undefined variable: idkategori
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Menu.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 148, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->save()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-08 05:43:07 --> Array to string conversion
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Views\menu\update.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Common.php(1087): CodeIgniter\View\View->render('menu/update', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Menu.php(111): view('menu/update', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->update('1')
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-08 05:44:01 --> Undefined variable: menu
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Menu.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 148, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->save()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-08 05:44:39 --> Undefined variable: idmenu
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Menu.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 148, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->save()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-08 05:45:52 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->save()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-08 05:46:06 --> Array to string conversion
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Views\kategori\update.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Common.php(1087): CodeIgniter\View\View->render('kategori/update', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\app\Controllers\Admin\Kategori.php(79): view('kategori/update', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(914): App\Controllers\Admin\Kategori->update('1')
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi13-video1-31\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-08 21:56:24 --> Class 'Config\Servicess' not found
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(886): App\Controllers\Admin\Pelanggan->__construct()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-12-08 22:02:57 --> Undefined variable: ktgr
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\app\Views\pelanggan\select.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\Common.php(1087): CodeIgniter\View\View->render('pelanggan/selec...', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\app\Controllers\Admin\Pelanggan.php(31): view('pelanggan/selec...', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(914): App\Controllers\Admin\Pelanggan->index()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-08 22:03:26 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\Common.php(1087): CodeIgniter\View\View->render('pelanggan/selec...', Array, true)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\app\Controllers\Admin\Pelanggan.php(31): view('pelanggan/selec...', Array)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(914): App\Controllers\Admin\Pelanggan->index()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-08 22:06:05 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\Common.php(1087): CodeIgniter\View\View->render('pelanggan/selec...', Array, true)
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\app\Controllers\Admin\Pelanggan.php(31): view('pelanggan/selec...', Array)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(914): App\Controllers\Admin\Pelanggan->index()
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pelanggan))
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi12-video32\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

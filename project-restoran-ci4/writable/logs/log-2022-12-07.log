@@ -1,0 +1,35 @@
+CRITICAL - 2022-12-07 07:41:44 --> Undefined variable: mn
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\app\Views\menu\update.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\Common.php(1087): CodeIgniter\View\View->render('menu/update', Array, true)
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\app\Controllers\Admin\Menu.php(61): view('menu/update', Array)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->update('1')
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#6 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-07 08:15:08 --> Undefined index: gambar
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\app\Controllers\Admin\Menu.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->save()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-07 08:16:06 --> Undefined index: gambar
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\app\Controllers\Admin\Menu.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(914): App\Controllers\Admin\Menu->save()
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-07 08:21:34 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('admin/menu/save')
+#1 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin/menu/save')
+#2 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project-restoran-ci4\revisi12-video1-30\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
